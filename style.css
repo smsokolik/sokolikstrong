@@ -22,28 +22,32 @@
   
   /* Position the navbar container inside the image */
   .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 519px;
+  left:50%;
+  transform: translate(-50%, -50%);
   }
   
-  /* The navbar */
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
+  .navbutton{
+    background-color: #FFD33C;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px 10px 0 0;
+    border-color: #FFD33C;
+    color: black;
+    margin: 4px;
   }
-  
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
+
+  .navbutton:hover {
+    background-color:white;
+    border-color: white;
     color: black;
   }
+  .navbutton:active {
+    background-color:white;
+    border-color: white;
+    color: black;
+  }
+  button:focus {outline:0;}
