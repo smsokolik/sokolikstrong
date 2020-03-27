@@ -81,6 +81,7 @@
   }
   .redtext{
     color: #A00101;
+    font-size: 24px;
   }
   .redlink{
     color: #A00101;
@@ -134,16 +135,15 @@
     line-height: 30px;
     height: 400px;
   }
-  .yellowbutton{
+  .yellowbutton {
     background-color: #FFD33C;
-    width: 150px;
+    width: 200px;
     height: 35px;
     border-radius: 10px;
     border-color: #FFD33C;
     color: black;
     font-size: 16px;
     margin-top: 20px;
-  
   }
 
   .yellowbutton:hover {
@@ -151,6 +151,7 @@
     border-color: white;
     color: black;
     cursor: pointer;
+    text-decoration: none;
   }
   .yellowbutton:active {
     background-color:white;
