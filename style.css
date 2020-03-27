@@ -47,13 +47,14 @@
     border-color: white;
     color: black;
     cursor: pointer;
+    text-decoration: none;
   }
-  .navbutton:active {
+  .active {
     background-color:white;
     border-color: white;
     color: black;
-    cursor: pointer;
   }
+  
   button:focus {outline:0;}
 
   .profile{
@@ -78,8 +79,16 @@
   img{
     padding-bottom: 20px;
   }
-  h4{
+  .redtext{
     color: #A00101;
+  }
+  .redlink{
+    color: #A00101;
+  }
+  .redlink:hover{
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
   }
 
   .footer {
@@ -98,11 +107,11 @@
     color: white;
   }
 
-  a{
+  .emaillink{
     color: white;
   }
 
-  a:hover{
+  .emaillink:hover{
     color: #FFD33C;
     cursor: pointer;
   }
@@ -154,5 +163,8 @@
     -moz-box-shadow:    1px 1px 3px 3px #ccc;
     -webkit-box-shadow: 1px 1px 3px 3px #ccc;
     box-shadow:         1px 1px 3px 3px #ccc;
+  }
+  .graytext{
+    color: darkgrey;
   }
 

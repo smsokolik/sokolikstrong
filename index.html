@@ -14,7 +14,7 @@
     <div class="bg-img">
         <img class="logo" src="images/logotag.png" alt="Sokolik Strong logo">
           <div class="container">
-            <a href="index.html" class="navbutton">HOME</a>
+            <a href="index.html" class="active navbutton">HOME</a>
             <a href="story.html" class="navbutton">STORY</a>
             <a href="support.html" class="navbutton">SUPPORT</a>
             <a href="events.html" class="navbutton">EVENTS</a>
@@ -42,22 +42,25 @@
 
             <section class="row col-12 col-md-4 col-lg-4">
                 
-              <div class="eventbox col-12">
+              <section class="eventbox col-12">
+                <div>
                 <img src="./images/takestepslogo.png" alt="Take Steps logo" class="responsive">
                 <p>Saturday<br>June 6, 2020<br>
                   Werner Park<br>
                   9:00a.m.
                 </p>
-                <button class="shadow yellowbutton">JOIN US</button>
+                <button class="shadow yellowbutton"><a href="support.html">JOIN US</button>
+                </div>
+              </section>
 
-              </div>
-              
-              <div class="moreevent col-12">
-                  <h4 class="color-red">Events</h4>
+              <section>
+              <div class="col-12">
+                  <p class="redtext">Events</p>
                   <img src="./images/event1.png" alt="Take Steps 2019" class="responsive">
-                  <h6 class="color-black condensed">TAKE STEPS 2019</h6>
-                  <button class="shadow yellowbutton">MORE EVENTS</button>
+                  <h6 class="graytext">TAKE STEPS 2019</h6>
+                  <h6 class="redlink"><a href="events.html">MORE EVENTS</h6>
               </div>
+              </section>
 
             </section>  
 
@@ -67,10 +70,10 @@
 
       <div class="footer">
         <div id="element1">
-          <img src="images/footerlogo.png" alt="Sokolik Strong logo">
+          <a href="index.html"><img src="images/footerlogo.png" alt="Sokolik Strong logo"></a>
         </div>
         <div id="element2">
-          <p><a href="mailto:smsokolik@cox.net">smsokolik@cox.net</p>
+          <p><a class="emaillink" href="mailto:smsokolik@cox.net">smsokolik@cox.net</p>
         </div>
        
       </div>
