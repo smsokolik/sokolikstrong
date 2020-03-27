@@ -37,6 +37,8 @@
     border-radius: 10px 10px 0 0;
     border-color: #FFD33C;
     color: black;
+    text-align: center;
+    padding-top: 5px;
     margin: 4px;
   }
 
@@ -44,11 +46,13 @@
     background-color:white;
     border-color: white;
     color: black;
+    cursor: pointer;
   }
   .navbutton:active {
     background-color:white;
     border-color: white;
     color: black;
+    cursor: pointer;
   }
   button:focus {outline:0;}
 
@@ -100,6 +104,7 @@
 
   a:hover{
     color: #FFD33C;
+    cursor: pointer;
   }
 
   #element1 {
@@ -108,3 +113,46 @@
   #element2 {
     float:right;
   }
+
+  .eventbox{
+    background-color: #D8D8D8;
+    padding: 40px 40px 0px 40px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 30px;
+    height: 400px;
+  }
+  .yellowbutton{
+    background-color: #FFD33C;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #FFD33C;
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+  
+  }
+
+  .yellowbutton:hover {
+    background-color:white;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .yellowbutton:active {
+    background-color:white;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .shadow {
+    -moz-box-shadow:    1px 1px 3px 3px #ccc;
+    -webkit-box-shadow: 1px 1px 3px 3px #ccc;
+    box-shadow:         1px 1px 3px 3px #ccc;
+  }
+
