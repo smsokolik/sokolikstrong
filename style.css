@@ -191,10 +191,8 @@
   }
   .logosquare{
     float: center;
-    width: 50%;
+    max-width:100%;
     text-align: center;
-    padding: 40px;
-    margin-right: 20px;
   }
   hr{
     line-height: 20px;
@@ -205,5 +203,36 @@
   }
   .eventimg{
     padding: 10px;
+  }
+  .supportbox{
+    padding: 10px;
+
+  }
+  .supportbutton {
+    background-color: #FFD33C;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #FFD33C;
+    color: black;
+    font-size: 16px;
+  }
+
+  .supportbutton:hover {
+    background-color:white;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  hr{
+    width: 100%;
+    margin-left: 
+    auto;margin-right: 
+    auto;
+  }
+  .eventhead{
+    color:darkgrey;
+    padding-top: 10px;
   }
   
