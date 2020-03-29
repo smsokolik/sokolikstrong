@@ -1,33 +1,43 @@
 .bg-img {
     /* The image used */
-    background-image: url("images/redback.png");
+    /* background-image: url("images/redback.png");
   
-    min-height: 536px;
+    min-height: 536px; */
   
     /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+    /* Needed to position the navbar */
+    /* position: relative; */
+    background-image: url(images/redback.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    /* Needed to position the navbar */
-    position: relative;
   }
   .logo{
-  float: none;
+  /* float: none;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  display: block;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
 }
   
   /* Position the navbar container inside the image */
   .container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   position: absolute;
   margin-top: 519px;
   left:50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  display: flex;
+    justify-content: center;
   }
   
   .navbutton{
@@ -39,7 +49,8 @@
     color: black;
     text-align: center;
     padding-top: 5px;
-    margin: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
   .navbutton:hover {
@@ -190,9 +201,12 @@
     margin-top: 30px;
   }
   .logosquare{
-    float: center;
+    /* float: center;
     max-width:100%;
-    text-align: center;
+    text-align: center; */
+    margin: auto;
+	display: block;
+	max-width: 100%;
   }
   hr{
     line-height: 20px;
